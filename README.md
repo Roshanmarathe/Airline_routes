@@ -158,17 +158,17 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
 - Predictive modeling (Delay & Demand Forecast)
 - Real-time data integration  
 - AI-based route optimization  
-
----
-
-## 👤 Author
-**Your Name**  
-Data Analyst | Power BI Developer  
+ 
 
 ---
 ## 📷 Business Insight
 <img width="1331" height="730" alt="Screenshot 2026-04-30 095911" src="https://github.com/user-attachments/assets/76402367-06ef-4131-908c-582f75998b52" />
 
+---
+
+## 👤 Author
+Roshan Marathe  
+Data Analyst | 
 
 ## ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
