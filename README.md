@@ -64,6 +64,10 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
   - Route-level deep insights  
 
 ---
+## 📷 Dashboard Preview
+<img width="1338" height="684" alt="Screenshot 2026-04-30 102707" src="https://github.com/user-attachments/assets/851abd6e-bd66-4bf2-bead-6e28e8678c63" />
+<img width="1337" height="685" alt="Screenshot 2026-04-30 095848" src="https://github.com/user-attachments/assets/8dab4f68-a645-482f-869b-bb493f27e197" />
+
 
 ## 🧠 Key Business Insights
 
@@ -89,6 +93,10 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
 👉 **Action:** Improve demand forecasting & pricing  
 
 ---
+## 📷 flight analysis Preview
+<img width="1332" height="707" alt="Screenshot 2026-04-30 102736" src="https://github.com/user-attachments/assets/ddfdcad9-47bc-4b11-a534-164161041280" />
+<img width="1331" height="730" alt="Screenshot 2026-04-30 095911" src="https://github.com/user-attachments/assets/3e4fd600-3d76-42c6-b15f-775c778c36d3" />
+
 
 ### 4. High Delays & Cancellations
 - Impacts customer satisfaction and cost  
@@ -110,6 +118,8 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
 👉 **Action:** Seasonal planning & forecasting  
 
 ---
+## 📷 growth Preview
+<img width="1333" height="731" alt="Screenshot 2026-04-30 095941" src="https://github.com/user-attachments/assets/4c56fa28-0c5a-460e-8bb2-578d86ec43d4" />
 
 ## 🚨 Problem → Solution → Impact
 
@@ -132,11 +142,6 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
 ---
 
 ## 📷 Dashboard Preview
-<img width="1338" height="684" alt="Screenshot 2026-04-30 102707" src="https://github.com/user-attachments/assets/f6bf5af0-743c-4dca-b7b5-dae915f0db22" />
-<img width="1337" height="685" alt="Screenshot 2026-04-30 095848" src="https://github.com/user-attachments/assets/a926237d-e929-4b8e-ad04-82d1bfe7e864" />
-<img width="1333" height="731" alt="Screenshot 2026-04-30 095941" src="https://github.com/user-attachments/assets/aa45114d-1a66-4e2f-ab5b-59639b21dc01" />
-<img width="1332" height="707" alt="Screenshot 2026-04-30 102736" src="https://github.com/user-attachments/assets/362466da-4a33-4519-84ba-269d26c42ef4" />
-<img width="1331" height="730" alt="Screenshot 2026-04-30 095911" src="https://github.com/user-attachments/assets/efb57d0e-b641-408c-8fb8-7a36c7b343c6" />
 
 
 ---
@@ -162,7 +167,7 @@ The dashboard enables **data-driven decision-making** by analyzing routes, deman
 
 ---
 ## 📷 Business Insight
-<img width="1331" height="730" alt="Screenshot 2026-04-30 095911" src="https://github.com/user-attachments/assets/76402367-06ef-4131-908c-582f75998b52" />
+<img width="1336" height="724" alt="Screenshot 2026-04-30 102816" src="https://github.com/user-attachments/assets/d8593660-fe9e-46db-881c-d67cb5f8810e" />
 
 ---
 
