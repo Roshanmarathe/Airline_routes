@@ -1,0 +1,73 @@
+create database airline_eoutes;
+use airliine_routes;
+source C:/Users/rosha/Downloads/airline_data.sql;
+show tables;
+select * from ailine_data;
+
+- Top 10 Most Frequent Routes
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    COUNT(*) AS total_flights
+FROM airline_data
+GROUP BY origin, destination
+ORDER BY total_flights DESC
+LIMIT 10;
+
+-- Avg Revenue, Cost, Profit per Route
+
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    AVG(revenue) AS avg_revenue,
+    AVG(cost) AS avg_cost,
+    AVG(profit) AS avg_profit
+FROM airline_data
+GROUP BY origin, destination
+ORDER BY avg_profit DESC;
+
+
+-- 3. Underperforming Routes (Negative Profit)
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    AVG(profit) AS avg_profit
+FROM airline_data
+GROUP BY origin, destination
+HAVING AVG(profit) < 0
+ORDER BY avg_profit;
+
+-- Seat Occupancy %
+
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    SUM(seats_sold) * 100.0 / SUM(seats_available) AS occupancy_percentage
+FROM airline_data
+GROUP BY origin, destination
+ORDER BY occupancy_percentage DESC;
+
+-- Monthly Profit Trend per Route
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    YEAR(flight_date) AS year,
+    MONTH(flight_date) AS month,
+    SUM(profit) AS total_profit
+FROM airline_data
+GROUP BY origin, destination, YEAR(flight_date), MONTH(flight_date)
+ORDER BY year, month;
+
+-- Domestic vs International Profitability
+SELECT 
+    route_type,
+    SUM(revenue) AS total_revenue,
+    SUM(cost) AS total_cost,
+    SUM(profit) AS total_profit
+FROM airline_data
+GROUP BY route_type;
+
+-- Revenue per Minute (Efficiency Ranking)
+SELECT 
+    CONCAT(origin, '-', destination) AS route,
+    SUM(revenue) / SUM(flight_duration) AS revenue_per_minute
+FROM airline_data
+GROUP BY origin, destination
+ORDER BY revenue_per_minute DESC;
+
+
